@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxs;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 31, 60);
+    min-height: 100vh;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+h1{
+    font-size: 70px;
+}
+.main{
+    position: relative;
+ display: flex;
+ flex-direction: column;
+ left: 0px;
+}
+.main span{
+    color: rgb(10, 117, 88);
+    padding-bottom: 8px;
+    border-bottom: 5px solid rgb(10, 117, 88);
+}
+.form{
+    background-color: white;
+    display: flex;
+    margin-top: 30px;
+    border-radius: 3px;
+    align-items: center;
+    margin-bottom: 30px;
+    /* justify-content: space-between; */
+}
+input{
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    min-width: 35vw;
+}
+.form img{
+    height: 20px;
+    cursor: pointer;
+}
+.btn{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(10, 117, 88);
+    padding: 15px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    max-width: 17vw;
+}
+.btn img{
+    height: 25px;
+    margin-right: 6px;
+}
+
